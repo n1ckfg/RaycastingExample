@@ -18,11 +18,10 @@ public class ClickExample : MonoBehaviour {
     }
 	
 	private void Update() {
-        if (ctl.isLooking && ctl.isLookingAt == gameObject.name) {
+        if (ctl.isLookingAt == gameObject.name) {
             if (ctl.isDrawing) {
                 ren.sharedMaterial.SetColor("_Color", clickColor);
-            }
-            else {
+            } else {
                 ren.sharedMaterial.SetColor("_Color", hoverColor);
             }
         } else {
