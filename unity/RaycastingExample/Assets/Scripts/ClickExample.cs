@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReceiveClickExample : MonoBehaviour {
+public class ClickExample : MonoBehaviour {
 
     public Color hoverColor = new Color(1f, 0f, 0f);
     public Color clickColor = new Color(0f, 1f, 0f);
